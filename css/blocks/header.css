@@ -1,0 +1,43 @@
+.header {
+	margin: 0 auto;
+	margin-bottom: -50px;
+	height: 250px;
+	max-width: 100%;
+	background-color: transparent;
+	position: relative;
+	z-index: 1;
+}
+
+.header__black-line {
+	margin: 0 auto;
+	height: 160px;
+	max-width: 100%;
+	background-color: black;
+	z-index: 2;
+}
+
+.header__solar {
+	margin: 0 auto;
+	height: 125px;
+	background: radial-gradient(circle farthest-corner at bottom center, #FFF500 17.2%, #FFF000 17.2%,#FFA800 34%, #A45400 54%, #36200A 76%, #000000 100%);
+	position: relative;
+	top: -160px;
+	z-index: 3;
+}
+
+.header__logo {
+	display: inline-block;
+	height: 200px;
+	position: relative;
+	top: -250px;
+	left: calc(50% - 180px - 15px);
+	z-index: 4;
+}
+
+.header__logo img {
+	display: inline-block;
+	margin: 0;
+	padding: 0;
+	width: 360px;
+	object-fit: cover;
+}
