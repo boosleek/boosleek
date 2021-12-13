@@ -27,6 +27,7 @@
 .header__logo {
 	display: inline-block;
 	max-height: 200px;
+	max-width: 361px;
 	position: relative;
 	top: -250px;
 	left: calc(50% - 180px - 15px);
@@ -37,6 +38,5 @@
 	display: inline-block;
 	margin: 0;
 	padding: 0;
-	max-width: 361px;
 	object-fit: cover;
 }
