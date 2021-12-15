@@ -15,6 +15,21 @@
 	z-index: 2;
 }
 
+.header__black-line__text {
+	padding: 0 15px;
+	padding-top: 135px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+
+}
+
+.header__black-line__text a {
+	font-weight: 700;
+	color: yellow;
+	text-decoration: none;
+}
+
 .header__solar {
 	margin: 0 auto;
 	height: 125px;
