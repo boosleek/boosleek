@@ -1,0 +1,24 @@
+.contacts {
+	margin-top: 40px;
+}
+
+.contacts_header {
+	margin-bottom: 20px;
+	text-align: center;
+}
+
+.contacts__wrap {
+	display: flex;
+}
+
+.contacts__map {
+	max-width: 50%;
+	margin: 0 auto;
+	padding-right: 20px;
+}
+
+.contacts__data {
+	max-width: 50%;
+	margin: 0 auto;
+	padding-left: 20px;
+}

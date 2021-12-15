@@ -40,3 +40,21 @@
 	padding: 0;
 	object-fit: cover;
 }
+
+.header__logo-text {
+	position: relative;
+	top: -315px;
+	text-align: center;
+}
+
+.header__logo-text__name {
+	position: relative;
+	left: -130px;
+	top: -10px;
+}
+
+.header__logo-text__subname {
+	position: relative;
+	left: 40px;
+	top: 15px;
+}
