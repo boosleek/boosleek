@@ -9,16 +9,36 @@
 
 .contacts__wrap {
 	display: flex;
+	flex-direction: row;
+	justify-content: flex-start;
 }
 
 .contacts__map {
+	flex-shrink: 1;
+	width: 50%;
 	max-width: 50%;
 	margin: 0 auto;
 	padding-right: 20px;
 }
 
 .contacts__data {
+	flex-shrink: 1;
+	width: 50%;
 	max-width: 50%;
 	margin: 0 auto;
 	padding-left: 20px;
+}
+
+.contacts__data h3 {
+	margin-top: 15px;
+}
+
+.contacts__data h3:first-child {
+	margin-top: 0;
+}
+
+
+.contacts__data img {
+	max-width: 65%;
+	margin-top: 10px;
 }
