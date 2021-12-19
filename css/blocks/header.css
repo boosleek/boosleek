@@ -73,3 +73,12 @@
 	left: 40px;
 	top: 15px;
 }
+
+@media (max-width: 679px) {
+	.header__black-line__text {
+		opacity: 0;
+	}
+	.header__logo-text {
+		opacity: 0;
+	}
+}
