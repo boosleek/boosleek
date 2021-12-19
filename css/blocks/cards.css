@@ -1,0 +1,29 @@
+.items {
+	display: flex;
+	flex-direction: row;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: wrap;
+	margin: 0 auto;
+}
+
+.item__card {
+	padding: .5em;
+	margin: .5em;
+	width: 20vw;
+	min-width: 200px;
+	height: 30vh;
+}
+
+.item__card img, .item__card h3, .item__card p {
+	margin: 0 auto;
+}
+
+.item__card img {
+	display: block;
+	height: 80%;
+}
+
+.item__card h3, .item__card p {
+	text-align: center;
+}
