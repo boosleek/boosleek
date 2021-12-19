@@ -27,3 +27,9 @@
 .item__card h3, .item__card p {
 	text-align: center;
 }
+
+@media (max-width: 679px) {
+	.item__card h3 {
+		font-size: smaller;
+	}
+}
